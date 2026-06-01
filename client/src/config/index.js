@@ -1,0 +1,225 @@
+export const registerFormControls = [
+  {
+    name: "userName",
+    label: "User Name",
+    placeholder: "Enter your user name",
+    componentType: "input",
+    type: "text",
+  },
+  {
+    name: "email",
+    label: "Email",
+    placeholder: "Enter your email",
+    componentType: "input",
+    type: "email",
+  },
+  {
+    name: "password",
+    label: "Password",
+    placeholder: "Enter your password",
+    componentType: "input",
+    type: "password",
+  },
+];
+
+export const loginFormControls = [
+  {
+    name: "email",
+    label: "Email",
+    placeholder: "Enter your email",
+    componentType: "input",
+    type: "email",
+  },
+  {
+    name: "password",
+    label: "Password",
+    placeholder: "Enter your password",
+    componentType: "input",
+    type: "password",
+  },
+];
+
+export const addProductFormElements = [
+  {
+    label: "Title",
+    name: "title",
+    componentType: "input",
+    type: "text",
+    placeholder: "Enter product title",
+  },
+  {
+    label: "Description",
+    name: "description",
+    componentType: "textarea",
+    placeholder: "Enter product description",
+  },
+  {
+    label: "Category",
+    name: "category",
+    componentType: "select",
+    options: [
+      { id: "Kitchen", label: "Kitchen" },
+      { id: "Bathroom", label: "Bathroom" },
+      { id: "Parking", label: "Parking" },
+      { id: "Flooring", label: "Flooring" },
+      { id: "Washarea", label: "Washarea" },
+    ],
+  },
+  {
+    label: "Brand",
+    name: "brand",
+    componentType: "select",
+    options: [
+      { id: "Kajaria", label: "Kajaria" },
+      { id: "Johnson", label: "Johnson" },
+      { id: "Simpolo", label: "Simpolo" },
+      { id: "Bajaj Tiles", label: "Bajaj Tiles" },
+      { id: "AGL", label: "AGL" },
+      { id: "CERA", label: "CERA" },
+    ],
+  },
+  {
+    label: "Price",
+    name: "price",
+    componentType: "input",
+    type: "number",
+    placeholder: "Enter product price",
+  },
+  {
+    label: "Sale Price",
+    name: "salePrice",
+    componentType: "input",
+    type: "number",
+    placeholder: "Enter sale price (optional)",
+  },
+  {
+    label: "Total Stock",
+    name: "totalStock",
+    componentType: "input",
+    type: "number",
+    placeholder: "Enter total stock",
+  },
+];
+
+export const shoppingViewHeaderMenuItems = [
+  {
+    id: "home",
+    label: "Home",
+    path: "/shop/home",
+  },
+  {
+    id: "products",
+    label: "Products",
+    path: "/shop/listing",
+  },
+  {
+    id: "Kitchen",
+    label: "Kitchen",
+    path: "/shop/listing",
+  },
+  {
+    id: "Bathroom",
+    label: "Bathroom",
+    path: "/shop/listing",
+  },
+  {
+    id: "Parking",
+    label: "Parking",
+    path: "/shop/listing",
+  },
+  {
+    id: "Flooring",
+    label: "Flooring",
+    path: "/shop/listing",
+  },
+  {
+    id: "Washarea",
+    label: "Washarea",
+    path: "/shop/listing",
+  },
+  {
+    id: "search",
+    label: "Search",
+    path: "/shop/search",
+  },
+    
+];
+
+export const categoryOptionsMap = {
+  Kitchen: "Kitchen",
+  Bathroom: "Bathroom",
+  Flooring: "Flooring",
+  Parking: "Parking",
+  Washarea: "Washarea",
+};
+
+export const brandOptionsMap = {
+  Kajaria: "Kajaria",
+  Johnson: "Johnson",
+  Simpolo: "Simpolo",
+  BajajTiles: "Bajaj Tiles",
+  AGL: "AGL",
+  CERA: "CERA",
+};
+
+export const filterOptions = {
+  category: [
+      { id: "Kitchen", label: "Kitchen" },
+      { id: "Bathroom", label: "Bathroom" },
+      { id: "Parking", label: "Parking" },
+      { id: "Flooring", label: "Flooring" },
+      { id: "Washarea", label: "Washarea" },
+  ],
+  brand: [
+    { id: "Kajaria", label: "Kajaria" },
+    { id: "Johnson", label: "Johnson" },
+    { id: "Simpolo", label: "Simpolo" },
+    { id: "Bajaj Tiles", label: "Bajaj Tiles" },
+    { id: "AGL", label: "AGL" },
+    { id: "CERA", label: "CERA" },
+  ],
+};
+
+export const sortOptions = [
+  { id: "price-lowtohigh", label: "Price: Low to High" },
+  { id: "price-hightolow", label: "Price: High to Low" },
+  { id: "title-atoz", label: "Title: A to Z" },
+  { id: "title-ztoa", label: "Title: Z to A" },
+];
+
+export const addressFormControls = [
+  {
+    label: "Address",
+    name: "address",
+    componentType: "input",
+    type: "text",
+    placeholder: "Enter your address",
+  },
+  {
+    label: "City",
+    name: "city",
+    componentType: "input",
+    type: "text",
+    placeholder: "Enter your city",
+  },
+  {
+    label: "Pincode",
+    name: "pincode",
+    componentType: "input",
+    type: "text",
+    placeholder: "Enter your pincode",
+  },
+  {
+    label: "Phone",
+    name: "phone",
+    componentType: "input",
+    type: "text",
+    placeholder: "Enter your phone number",
+  },
+  {
+    label: "Notes",
+    name: "notes",
+    componentType: "textarea",
+    placeholder: "Enter any additional notes",
+  },
+];
